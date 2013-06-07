@@ -18,7 +18,7 @@ You need to install package dependencies to your emulator manually, for example:
     * subversion
     * zlib-devel
 
-And then download the emulator from svn/repo and compile it!
+And then download the emulator from svn/repo and compile it manually!
 
 # Example with RObrew:
 
