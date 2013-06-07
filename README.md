@@ -26,15 +26,15 @@ After install RObrew you just need to do that command in your terminal:
 
     $ robrew install <emulator>
 
-# For eAthena:
+# To install eAthena:
 
     $ robrew install eathena
 
-# For rAthena:
+# To install rAthena:
 
     $ robrew install rathena
 
-# For Hercules:
+# To install Hercules:
 
     $ robrew install hercules
 
