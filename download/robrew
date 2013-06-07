@@ -24,6 +24,7 @@ if [ ! -d /etc/robrew ]; then
 		echo "Great! all my sources are intalled successfully."
 		echo "Type: robrew help - to read more"
 		echo ""
+		exit 1
 	fi
 fi
 
