@@ -26,15 +26,15 @@ After install RObrew you just need to do that command in your terminal:
 
     $ robrew install <emulator>
 
-## To install eAthena:
+### To install eAthena:
 
     $ robrew install eathena
 
-## To install rAthena:
+### To install rAthena:
 
     $ robrew install rathena
 
-## To install Hercules:
+### To install Hercules:
 
     $ robrew install hercules
 
@@ -49,7 +49,7 @@ Package Dependencies:
     * subversion
     * zlib-devel
 
-The robrew command will install all package dependencies automatically, download Hercules from official svn/repository.
+The robrew command will install all package dependencies automatically, download <emulator> from official svn/repository.
 
 If you want to compile:
 
