@@ -59,7 +59,7 @@ RObrew is now in development and the first release will have plugins. For exampl
 
 Will be something like that:
 
-      $ robrew pluginstall emulator-dropbox-backup
+   $ robrew pluginstall emulator-dropbox-backup
 
 if you are interested to get involved contact me.
 
