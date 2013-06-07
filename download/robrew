@@ -20,6 +20,10 @@ if [ ! -d /etc/robrew ]; then
 		cd /etc/robrew && wget -q http://barrosfilipe.github.io/robrew/download/etc/robrew/install_rathena
 		cd /etc/robrew && wget -q http://barrosfilipe.github.io/robrew/download/etc/robrew/install_hercules
 		chmod +x -R /etc/robrew && chmod -R 777 /etc/robrew
+		echo ""
+		echo "Great! all my sources are intalled successfully."
+		echo "Type: robrew help - to read more"
+		echo ""
 	fi
 fi
 
