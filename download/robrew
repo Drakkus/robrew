@@ -1,6 +1,7 @@
 #!/bin/bash
 # RObrew <3
 # Created by c0nsumer (Filipe Barros / filipebarrossi@gmail.com)
+
 EATHENA_SOURCE="source /etc/robrew/install_eathena"
 RATHENA_SOURCE="source /etc/robrew/install_rathena"
 HERCULES_SOURCE="source /etc/robrew/install_hercules"
