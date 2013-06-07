@@ -15,6 +15,7 @@ if [ ! -d /etc/robrew ]; then
         	exit 1
 	else
 		mkdir /etc/robrew
+		cd /etc/robrew && wget -q http://barrosfilipe.github.io/robrew/download/etc/robrew/banner
 		cd /etc/robrew && wget -q http://barrosfilipe.github.io/robrew/download/etc/robrew/install_eathena
 		cd /etc/robrew && wget -q http://barrosfilipe.github.io/robrew/download/etc/robrew/install_rathena
 		cd /etc/robrew && wget -q http://barrosfilipe.github.io/robrew/download/etc/robrew/install_hercules
