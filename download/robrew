@@ -1,3 +1,48 @@
 #!/bin/bash
+# RObrew <3
+# Created by c0nsumer (Filipe Barros / filipebarrossi@gmail.com)
+LATEST_UPDATE="[-] Latest Update: Fri Jun  7 17:25:32 BRT 2013 (REV 10)"
+EATHENA_SOURCE="source /etc/robrew/install_eathena"
+RATHENA_SOUCE="source /etc/robrew/install_rathena"
+HERCULES_SOURCE="source /etc/robrew/install_hercules"
 
-echo "RObrew is not done yet :( Try again later, sorry!" 
+# INSTALL
+if [ ! -d /etc/robrew ]; then
+	if [ "$(id -u)" != "0" ]; then
+		echo ""
+	        echo "No sources installed yet. Please type 'sudo robrew' to install/update application sources."
+	        echo ""
+        	exit 1
+	else
+		mkdir /etc/robrew
+		cd /etc/robrew && wget -q http://barrosfilipe.github.io/robrew/download/etc/robrew/install_eathena
+		cd /etc/robrew && wget -q http://barrosfilipe.github.io/robrew/download/etc/robrew/install_rathena
+		cd /etc/robrew && wget -q http://barrosfilipe.github.io/robrew/download/etc/robrew/install_hercules
+	fi
+fi
+
+# BANNER
+source /etc/robrew/banner
+
+# INSTALL eATHENA
+if [ "$1" == "install" ] && [ "$2" == "eathena" ]; then
+	$EATHENA_SOURCE
+elif [ "$1" == "install" ] && [ "$2" == "rathena" ]; then
+	$RATHENA_SOURCE
+elif [ "$1" == "install" ] && [ "$2" == "hercules" ]; then
+	$HERCULES_SOURCE
+else
+	echo -e "\033[40;31m$LATEST_UPDATE\033[0m"
+	echo ""
+	echo "Usage: robrew install [emulator]"
+	echo "       robrew pluginstall [plugin]"
+	echo ""
+	echo "robrew is a simple command line interface for downloading and"
+	echo "installing ragnarok emulators and plugins."
+	echo ""
+	echo "Commands:"
+	echo "  install - Install new emulator (emulator is eathena, rathena or hercules)."
+	echo "  pluginstall - Install new plugin (plugin is emulator-drobox-backup)."
+	echo "  plugin list - List all available plugins in robrew repository."
+	echo ""
+fi
