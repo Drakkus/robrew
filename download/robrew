@@ -29,8 +29,10 @@ source /etc/robrew/banner
 # INSTALL eATHENA
 if [ "$1" == "install" ] && [ "$2" == "eathena" ]; then
 	$EATHENA_SOURCE
+# INSTALL rATHENA
 elif [ "$1" == "install" ] && [ "$2" == "rathena" ]; then
 	$RATHENA_SOURCE
+# INSTALL HERCULES
 elif [ "$1" == "install" ] && [ "$2" == "hercules" ]; then
 	$HERCULES_SOURCE
 else
