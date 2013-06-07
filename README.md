@@ -51,7 +51,7 @@ The robrew command will install all package dependencies automatically, download
 
 If you want to compile:
 
-      $ robrew compile /path/to/downloaded/<emuator>/folder/
+      $ robrew compile /path/to/downloaded/<emulator>/folder/
 
 RObrew is now in development and the first release will have plugins. For example, a plugin named emulator-dropbox-backup that provide automatically daily backups from your emulator and database to a DropBox storage.
 
