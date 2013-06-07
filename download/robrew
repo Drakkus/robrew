@@ -3,7 +3,7 @@
 # Created by c0nsumer (Filipe Barros / filipebarrossi@gmail.com)
 LATEST_UPDATE="[-] Latest Update: Fri Jun  7 17:25:32 BRT 2013 (REV 10)"
 EATHENA_SOURCE="source /etc/robrew/install_eathena"
-RATHENA_SOUCE="source /etc/robrew/install_rathena"
+RATHENA_SOURCE="source /etc/robrew/install_rathena"
 HERCULES_SOURCE="source /etc/robrew/install_hercules"
 
 # INSTALL
