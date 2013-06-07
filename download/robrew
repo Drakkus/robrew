@@ -1,7 +1,6 @@
 #!/bin/bash
 # RObrew <3
 # Created by c0nsumer (Filipe Barros / filipebarrossi@gmail.com)
-LATEST_UPDATE="[-] Latest Update: Fri Jun  7 17:25:32 BRT 2013 (REV 10)"
 EATHENA_SOURCE="source /etc/robrew/install_eathena"
 RATHENA_SOURCE="source /etc/robrew/install_rathena"
 HERCULES_SOURCE="source /etc/robrew/install_hercules"
@@ -34,7 +33,6 @@ elif [ "$1" == "install" ] && [ "$2" == "rathena" ]; then
 elif [ "$1" == "install" ] && [ "$2" == "hercules" ]; then
 	$HERCULES_SOURCE
 else
-	echo -e "\033[40;31m$LATEST_UPDATE\033[0m"
 	echo ""
 	echo "Usage: robrew install [emulator]"
 	echo "       robrew pluginstall [plugin]"
