@@ -1,7 +1,7 @@
 RObrew
 ======
 
-What is RObrew?
+# What is RObrew?
 
 It's a Linux (Debian Based OS / Red Hat Based OS) application that will provide you a simple life in ragnarok emulator management.
 
@@ -20,21 +20,21 @@ You need to install package dependencies to your emulator manually, for example:
 
 And then download the emulator from svn/repo and compile it!
 
-Example with RObrew:
+# Example with RObrew:
 
 After install RObrew you just need to do that command in your terminal:
 
     $ robrew install <emulator>
 
-# To install eAthena:
+## To install eAthena:
 
     $ robrew install eathena
 
-# To install rAthena:
+## To install rAthena:
 
     $ robrew install rathena
 
-# To install Hercules:
+## To install Hercules:
 
     $ robrew install hercules
 
