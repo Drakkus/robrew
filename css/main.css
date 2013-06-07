@@ -1,0 +1,73 @@
+body {
+  	font-family: Helvetica, Arial, sans-serif;
+  	font-size: 13px;
+  	line-height: 1.4;
+  	color: #f6e6cc;
+  	background: #27221a url("./images/bg-body.gif");
+}
+
+.content {
+
+}
+
+.logo {
+	font-family: 'Carter One', cursive;
+	font-size: 70px;
+	color: #fff;
+	text-align: center;
+	margin-top:26px;
+	text-shadow: 5px 3px 0px #583F13;
+}
+
+.logotext {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:14px;
+	color:#fff;
+	text-align: center;
+	font-style: italic;
+}
+
+pre {
+  	background: rgba(0,0,0,0.3);
+  	color: #fff;
+  	padding: 8px 10px;
+  	border-radius: 0.4em;
+  	-moz-border-radius: 0.4em;
+  	-webkit-border-radius: 0.4em;
+  	overflow-x: auto;
+}
+
+pre code {
+  	font-size: 12px;
+  	line-height: 1.6;
+}
+
+.install {
+	margin-top: 10px;
+  	background: rgba(0,0,0,0.3);
+  	color: #fff;
+  	padding: 8px 10px;	
+  	border-radius: 0.4em;
+  	-moz-border-radius: 0.4em;
+  	-webkit-border-radius: 0.4em;
+  	overflow-x: auto;
+  	width: 700px;
+  	font-size: 22px;
+  	font-style: italic;
+}
+
+.installtext {
+	font-family: 'Carter One', cursive;
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+	margin-top:35px;
+	text-shadow: 3px 2px 0px #583F13;
+}
+
+::selection { background: #745626; }
+::-moz-selection { background: #745626; }
+
+.lang {
+	text-align: center;
+}
