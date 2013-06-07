@@ -1,7 +1,5 @@
-RObrew
+What is RObrew?
 ======
-
-# What is RObrew?
 
 It's a Linux (Debian Based OS / Red Hat Based OS) application that will provide you a simple life in ragnarok emulator management.
 
