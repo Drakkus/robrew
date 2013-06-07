@@ -55,7 +55,7 @@ If you want to compile:
 
 RObrew is now in development and the first release will have plugins. For example, a plugin named emulator-dropbox-backup that provide automatically daily backups from your emulator and database to a DropBox storage.
 
-### Plugin install:
+### Plugin installation:
 
 Will be something like that:
 
