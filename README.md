@@ -26,15 +26,15 @@ After install RObrew you just need to do that command in your terminal:
 
     $ robrew install <emulator>
 
-For eAthena:
+- For eAthena:
 
     $ robrew install eathena
 
-For rAthena:
+- For rAthena:
 
     $ robrew install rathena
 
-For Hercules:
+- For Hercules:
 
     $ robrew install hercules
 
@@ -53,7 +53,7 @@ The robrew command will install all package dependencies automatically, download
 
 If you want to compile:
 
-    $ robrew compile /path/to/downloaded/hercules/folder/
+    $ robrew compile /path/to/downloaded/<emuator>/folder/
 
 RObrew is now in development and the first release will have plugins. For example, a plugin named emulator-dropbox-backup that provide automatically daily backups from your emulator and database to a DropBox storage.
 
